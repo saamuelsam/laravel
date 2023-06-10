@@ -31,6 +31,13 @@
     <div class="col-12">
     <button type="submit" class="btn btn-primary">Sign in</button>
   </div>
+    @if(session()->has('Sucesso'))
+
+
+  <div class="alert alert-success" role="alert">
+  {{session("Sucesso")}}
+    </div>
+    @endif
     </form>
 </div>
 

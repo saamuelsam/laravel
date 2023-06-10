@@ -30,6 +30,6 @@ class EventController extends Controller
 
         $event->save();
 
-        return redirect('/');
+        return redirect()->back()->with('Sucesso', 'Enviado com sucesso!');
     }
 }

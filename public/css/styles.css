@@ -89,14 +89,15 @@ header {
 
 #cards-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 #events-container .card {
   flex: 1 1 0;
-  max-width: 25%;
-  border-radius: 10px;
-  padding: 0;
-  margin: 5px;
+  /* max-width: 100%; */
+  border-radius: 4px;
+  padding: 0; 
+   margin: 5px; 
 }
 
 #events-container img {
@@ -137,7 +138,7 @@ header {
 }
 
 /* footer */
-footer {
+ footer {
   text-align: center;
   background-color: #353E48;
   color: #FFF;
@@ -149,10 +150,10 @@ footer {
 
 footer p {
   margin-bottom: 0;
-} 
+}  
 
 /* EVENTS */
-
+ 
 .col-12 {
   padding: 10px;
-}
+} 
